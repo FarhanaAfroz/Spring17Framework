@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testNG Framework" duration-ms="10922" started-at="2018-01-07T15:38:56Z" finished-at="2018-01-07T15:39:07Z">
+    <groups>
+    </groups>
+    <test name="chome test" duration-ms="10806" started-at="2018-01-07T15:38:56Z" finished-at="2018-01-07T15:39:07Z">
+      <class name="tests.SkipDisable">
+        <test-method status="PASS" signature="goingToDisable()[pri:0, instance:tests.SkipDisable@7692d9cc]" name="goingToDisable" duration-ms="0" started-at="2018-01-07T10:39:06Z" finished-at="2018-01-07T10:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingToDisable -->
+        <test-method status="SKIP" signature="goingToSkip()[pri:0, instance:tests.SkipDisable@7692d9cc]" name="goingToSkip" duration-ms="0" started-at="2018-01-07T10:39:06Z" finished-at="2018-01-07T10:39:06Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping because this test is no longer needed!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping because this test is no longer needed!!
+	at tests.SkipDisable.goingToSkip(SkipDisable.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingToSkip -->
+      </class> <!-- tests.SkipDisable -->
+      <class name="tests.ReadWriteUsingXL">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.ReadWriteUsingXL@2a32de6c]" name="setUp" is-config="true" duration-ms="8968" started-at="2018-01-07T10:38:56Z" finished-at="2018-01-07T10:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readFromXl()[pri:0, instance:tests.ReadWriteUsingXL@2a32de6c]" name="readFromXl" duration-ms="455" started-at="2018-01-07T10:39:05Z" finished-at="2018-01-07T10:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFromXl -->
+        <test-method status="PASS" signature="writeIntoXl()[pri:0, instance:tests.ReadWriteUsingXL@2a32de6c]" name="writeIntoXl" duration-ms="356" started-at="2018-01-07T10:39:06Z" finished-at="2018-01-07T10:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeIntoXl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ReadWriteUsingXL@2a32de6c]" name="tearDown" is-config="true" duration-ms="996" started-at="2018-01-07T10:39:06Z" finished-at="2018-01-07T10:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ReadWriteUsingXL -->
+    </test> <!-- chome test -->
+    <test name="fireFox test" duration-ms="0" started-at="2018-01-07T15:39:07Z" finished-at="2018-01-07T15:39:07Z">
+    </test> <!-- fireFox test -->
+  </suite> <!-- testNG Framework -->
+</testng-results>

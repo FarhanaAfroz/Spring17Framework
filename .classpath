@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/client-combined-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/client-combined-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/testng-6.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

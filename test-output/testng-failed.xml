@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNG Framework]">
+  <parameter name="browser" value="ff"/>
+  <test name="chome test(failed)">
+    <parameter name="browser" value="Ch"/>
+    <classes>
+      <class name="tests.ReadWriteUsingXL">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ReadWriteUsingXL -->
+      <class name="tests.SkipDisable">
+        <methods>
+          <include name="goingToSkip"/>
+        </methods>
+      </class> <!-- tests.SkipDisable -->
+    </classes>
+  </test> <!-- chome test(failed) -->
+</suite> <!-- Failed suite [testNG Framework] -->
